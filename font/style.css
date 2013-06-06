@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'Dangle';
+	src:url('fonts/Dangle.eot');
+	src:url('fonts/Dangle.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Dangle.woff') format('woff'),
+		url('fonts/Dangle.ttf') format('truetype'),
+		url('fonts/Dangle.svg#Dangle') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Dangle';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="fs-icons-"] {
+*/
+.fs-icons-toggle-down, .fs-icons-start, .fs-icons-settings, .fs-icons-ruby, .fs-icons-reward, .fs-icons-redeem, .fs-icons-profile, .fs-icons-comments, .fs-icons-check-mark, .fs-icons-calendar, .fs-icons-back, .fs-icons-add, .fs-icons-toggle-up, .fs-icons-grabber, .fs-icons-circlePlus, .fs-icons-repeat-round, .fs-icons-flask, .fs-icons-repeat-square, .fs-icons-band-aid, .fs-icons-lady-bug, .fs-icons-tank, .fs-icons-x, .fs-icons-coins, .fs-icons-check, .fs-icons-remind, .fs-icons-edit, .fs-icons-headphones, .fs-icons-lock, .fs-icons-check-mark-2, .fs-icons-nav {
+	font-family: 'Dangle';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.fs-icons-toggle-down:before {
+	content: "\44";
+}
+.fs-icons-start:before {
+	content: "\53";
+}
+.fs-icons-settings:before {
+	content: "\73";
+}
+.fs-icons-ruby:before {
+	content: "\43";
+}
+.fs-icons-reward:before {
+	content: "\52";
+}
+.fs-icons-redeem:before {
+	content: "\74";
+}
+.fs-icons-profile:before {
+	content: "\50";
+}
+.fs-icons-comments:before {
+	content: "\63";
+}
+.fs-icons-check-mark:before {
+	content: "\65";
+}
+.fs-icons-calendar:before {
+	content: "\6c";
+}
+.fs-icons-back:before {
+	content: "\42";
+}
+.fs-icons-add:before {
+	content: "\41";
+}
+.fs-icons-toggle-up:before {
+	content: "\55";
+}
+.fs-icons-grabber:before {
+	content: "\47";
+}
+.fs-icons-circlePlus:before {
+	content: "\21";
+}
+.fs-icons-repeat-round:before {
+	content: "\22";
+}
+.fs-icons-flask:before {
+	content: "\23";
+}
+.fs-icons-repeat-square:before {
+	content: "\24";
+}
+.fs-icons-band-aid:before {
+	content: "\33";
+}
+.fs-icons-lady-bug:before {
+	content: "\32";
+}
+.fs-icons-tank:before {
+	content: "\51";
+}
+.fs-icons-x:before {
+	content: "\25";
+}
+.fs-icons-coins:before {
+	content: "\26";
+}
+.fs-icons-check:before {
+	content: "\30";
+}
+.fs-icons-remind:before {
+	content: "\28";
+}
+.fs-icons-edit:before {
+	content: "\29";
+}
+.fs-icons-headphones:before {
+	content: "\2a";
+}
+.fs-icons-lock:before {
+	content: "\2b";
+}
+.fs-icons-check-mark-2:before {
+	content: "\25e4";
+}
+.fs-icons-nav:before {
+	content: "\25ba";
+}
