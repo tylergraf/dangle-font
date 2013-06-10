@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="fs-icons-"] {
 */
-.fs-icons-toggle-down, .fs-icons-start, .fs-icons-settings, .fs-icons-ruby, .fs-icons-reward, .fs-icons-redeem, .fs-icons-profile, .fs-icons-comments, .fs-icons-check-mark, .fs-icons-calendar, .fs-icons-back, .fs-icons-add, .fs-icons-toggle-up, .fs-icons-grabber, .fs-icons-circlePlus, .fs-icons-repeat-round, .fs-icons-flask, .fs-icons-repeat-square, .fs-icons-band-aid, .fs-icons-lady-bug, .fs-icons-tank, .fs-icons-x, .fs-icons-coins, .fs-icons-check, .fs-icons-remind, .fs-icons-edit, .fs-icons-headphones, .fs-icons-lock, .fs-icons-check-mark-2, .fs-icons-nav {
+.fs-icons-toggle-down, .fs-icons-start, .fs-icons-settings, .fs-icons-ruby, .fs-icons-reward, .fs-icons-redeem, .fs-icons-profile, .fs-icons-comments, .fs-icons-check-mark, .fs-icons-calendar, .fs-icons-back, .fs-icons-add, .fs-icons-toggle-up, .fs-icons-grabber, .fs-icons-circlePlus, .fs-icons-repeat-round, .fs-icons-flask, .fs-icons-repeat-square, .fs-icons-band-aid, .fs-icons-lady-bug, .fs-icons-tank, .fs-icons-x, .fs-icons-coins, .fs-icons-check, .fs-icons-remind, .fs-icons-edit, .fs-icons-headphones, .fs-icons-lock, .fs-icons-check-mark-2, .fs-icons-nav, .fs-icons-arrow-right, .fs-icons-arrow-left {
 	font-family: 'Dangle';
 	speak: none;
 	font-style: normal;
@@ -126,4 +126,10 @@ you can use the generic selector below, but it's slower:
 }
 .fs-icons-nav:before {
 	content: "\25ba";
+}
+.fs-icons-arrow-right:before {
+	content: "\25b6";
+}
+.fs-icons-arrow-left:before {
+	content: "\25c3";
 }

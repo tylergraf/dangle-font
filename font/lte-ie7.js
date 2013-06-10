@@ -35,7 +35,9 @@ window.onload = function() {
 			'fs-icons-headphones' : '&#x2a;',
 			'fs-icons-lock' : '&#x2b;',
 			'fs-icons-check-mark-2' : '&#x25e4;',
-			'fs-icons-nav' : '&#x25ba;'
+			'fs-icons-nav' : '&#x25ba;',
+			'fs-icons-arrow-right' : '&#x25b6;',
+			'fs-icons-arrow-left' : '&#x25c3;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
